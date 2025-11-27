@@ -6,7 +6,7 @@
 }
 
 body {
-    background: purple;
+    background: #5D267C;
     color: #111;
     line-height: 1.6;
 }
@@ -20,9 +20,23 @@ body {
     align-items: center;
     position: fixed;
     top: 0;
-    background: rgba(0, 0, 0, 0.8);
+    background: #431C5A;
+    color: aliceblue;
     backdrop-filter: blur(10px);
     z-index: 10;
+}
+.cart-link {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+    color: #111;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.cart-link:hover {
+    color: #000;
 }
 
 .logo {
