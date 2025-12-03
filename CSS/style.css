@@ -9,7 +9,7 @@
   body {
     background-color: #1b1c29;
     color: white;
-    font-family: 'Poppins', sans-serif;
+     font-family: 'Poppins', sans-serif;  /*FONTE NOME GRANDE */
     height: 100vh;
     overflow-x: hidden;
     display: flex;
@@ -31,7 +31,7 @@
   .logo {
     font-weight: 700;
     font-size: 1.3rem;
-    color: #ef4b4b;
+     color: #ef4b4b;  /* FONTE HEADER */
   }
   
   .menu a {
