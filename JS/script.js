@@ -1,4 +1,6 @@
-function toggleMenu() {
-    const nav = document.querySelector('.nav');
-    nav.style.display = nav.style.display === 'flex' ? 'none' : 'flex';
-}
+// Evento simples para botão "About Me"
+document.querySelector('.btn-about').addEventListener('click', (e) => {
+    e.preventDefault();
+    alert('Seção "About Me" ainda não implementada.');
+  });
+  
