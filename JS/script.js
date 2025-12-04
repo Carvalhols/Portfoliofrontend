@@ -4,3 +4,33 @@ document.querySelector('.btn-about').addEventListener('click', (e) => {
     alert('Seção "About Me" ainda não implementada.');
   });
   
+  const themeSwitch = document.getElementById("theme-switch");
+const body = document.body;
+
+// Carregar tema salvo
+if (localStorage.getItem("theme") === "dark") {
+  body.classList.add("dark");
+}
+
+// Função para alternar tema
+function toggleTheme() {
+  body.classList.toggle("dark");
+
+  if (body.classList.contains("dark")) {
+    localStorage.setItem("theme", "dark");
+  } else {
+    localStorage.setItem("theme", "light");
+  }
+}
+
+// Evento click
+themeSwitch.addEventListener("click", toggleTheme);
+
+// Acessibilidade: ativar com Enter ou Espaço
+themeSwitch.addEventListener("keydown", (e) => {
+  if (e.key === "Enter" || e.key === " ") {
+    e.preventDefault();
+    toggleTheme();
+  }
+});
+
