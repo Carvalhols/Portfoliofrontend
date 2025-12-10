@@ -42,7 +42,8 @@ body {
   gap: 20px;
 }
 
-input, textarea {
+input,
+textarea {
   padding: 15px;
   font-size: 1rem;
   border-radius: 8px;

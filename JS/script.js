@@ -1,10 +1,10 @@
 // Evento simples para botão "About Me"
 document.querySelector('.btn-about').addEventListener('click', (e) => {
-    e.preventDefault();
-    alert('Seção "About Me" ainda não implementada.');
-  });
-  
-  const themeSwitch = document.getElementById("theme-switch");
+  e.preventDefault();
+  alert('Seção "About Me" ainda não implementada.');
+});
+
+const themeSwitch = document.getElementById("theme-switch");
 const body = document.body;
 
 // Carregar tema salvo
@@ -23,7 +23,7 @@ function toggleTheme() {
   }
 }
 
-// Evento click
+// clique do Botão modo claro/escuro
 themeSwitch.addEventListener("click", toggleTheme);
 
 // Acessibilidade: ativar com Enter ou Espaço

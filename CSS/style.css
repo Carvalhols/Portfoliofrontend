@@ -1,3 +1,4 @@
+
 /* Reset básico */
 * {
   margin: 0;
@@ -16,6 +17,7 @@ body {
   display: flex;
   flex-direction: column;
   transition: background 0.3s ease, color 0.3s ease;
+  
 }
 
 /* Variáveis de tema */
@@ -31,6 +33,7 @@ body {
 
 /* HEADER */
 .navbar {
+   font-family: "Bitcount Prop Single", system-ui;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -39,6 +42,9 @@ body {
   position: sticky;
   top: 0;
   z-index: 1000;
+  font-family: "Bitcount Prop Single", system-ui;
+  
+  
 }
 
 .logo {
@@ -50,7 +56,8 @@ body {
 .right-group {
   display: flex;
   align-items: center;
-  gap: 25px; /* espaçamento menu / botão */
+  gap: 25px;
+  /* espaçamento menu / botão */
 }
 
 .menu a {
@@ -66,7 +73,7 @@ body {
   color: #ef4b4b;
 }
 
-/* MAIN CONTENT */
+/* CONTEUDO PRINCIPAL */
 .content {
   max-width: 600px;
   padding: 60px 5vw 0 5vw;
@@ -106,7 +113,7 @@ em {
   background-color: #d94343;
 }
 
-/* Redes sociais fixas */
+/* Posição redes sociais */
 .social-links {
   position: fixed;
   top: 50%;
@@ -175,7 +182,8 @@ body.dark #theme-switch .moon-icon {
 }
 
 .social-links a {
-  color: #aaa; /* cor base */
+  color: #aaa;
+  /* cor base */
   font-size: 22px;
   transition: color 0.3s ease, transform 0.3s ease;
 }
@@ -200,9 +208,3 @@ body.dark #theme-switch .moon-icon {
 .social-links a[aria-label="Dribbble"]:hover {
   color: #EA4C89;
 }
-
-
-
-
-
-
