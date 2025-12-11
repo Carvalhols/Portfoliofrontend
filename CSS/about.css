@@ -1,52 +1,46 @@
-/* Aplica o fundo e fonte apenas ao About */
-.page-about {
-  background: #f2efe9;
-  color: #333;
-  font-family: 'Poppins', sans-serif;
-  padding: 8vw 10vw;
-  min-height: 100vh;
-}
-
-/* TÍTULO exclusivo do About */
-.page-about .title {
-  font-size: 4rem;
-  font-weight: 800;
-  font-family: 'Times New Roman', serif;
-  margin-bottom: 40px;
-  color: #222;
-}
-
-/* Texto exclusivo */
-.page-about .text {
-  font-size: 1.3rem;
-  max-width: 700px;
-  margin-bottom: 20px;
-  line-height: 1.7rem;
-  color: #444;
-}
 
 /* Se quiser uma seção mais organizada */
-.about-section {
-  max-width: 900px;
-}
+
 
 body {
   background-color: rgb(88, 3, 88);
   color: whitesmoke;
-  text-align: left;
 
 }
 
-.minhafoto {
-  width: 600px;
-  height: 800px;
-  display: block;
-  margin-left: auto;
-  margin-right: 50px;
-
-
-
-
-
-
+.text{
+  font-size: 24px;
 }
+
+.minhafoto{
+  display: inline-block;
+  width: 350px;  
+  min-width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  box-shadow: 0 0 25px black;
+  transition: 0.4s ease-in-out;  
+  
+}
+
+.minhafoto:hover, .about-img img:hover{
+  box-shadow: 0 0 25px #ffff, 0 0 50px #ffff, 0 0 100px #ffff;
+}
+
+#flex{
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  
+ 
+}
+
+
+  
+  
+
+
+
+
+
+
